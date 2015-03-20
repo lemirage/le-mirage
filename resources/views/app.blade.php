@@ -57,29 +57,11 @@
 
  <div class="collapse navbar-collapse menubar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown"><a href="#" class='dropdown-toggle' data-toggle='dropdown'><i class="fa fa-fw fa-home"></i>Home</a>
-					<ul class="dropdown-menu">
-					<li>
-					<a href="#">Bootstrap Templates</a></li>
-                    <li><a href="#">Single page website </a></li>
-                    <li><a href="#">Landing Page</a>
-					<li><a href="#">Admin Templates</a></li>
-                    <li><a href="#">Login Page </a></li>                            
-					</ul>
+          <li class="dropdown"><a href="#" class='dropdown-toggle' data-toggle='dropdown'><i class="fa fa-fw fa-home"></i>Home</a>
 					</li>
-                    <li class='dropdown'><a href="#" class='dropdown-toggle' data-toggle='dropdown'><i class="fa fa-fw fa-support"></i>Support</a>
-					<ul class='dropdown-menu'>
-					<li><a href="#">Megamenu</a></li>
-					<li><a href="#">Menu Bar</a>
-                    <li><a href="#">Accordion</a></li>
-                    <li><a href="#">Tabs</a>
-					
-					</li>
-					</ul>
-                    <li><a href="#"><i class="fa fa-fw fa-th"></i>Widgets</a></li>
-                    <li><a href="#"><i class="fa fa-fw fa-bar-chart-o"></i>Recent Works</a></li>
+          <li class='dropdown'><a href="#" class='dropdown-toggle' data-toggle='dropdown'><i class="fa fa-fw fa-support"></i>Reseaux sociaux</a>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-users"></i>Users<i class="icon-angle-down"></i></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-users"></i>les projets<i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Career</a></li>
                             <li><a href="#">Blog Single</a></li>
@@ -98,20 +80,20 @@
 			
 </div>
 </header><!---->
-
+ <!--
   <section class='gallery'>
   
-  
+ 
    <div class="home-caption">
                 <div class="home-title">A Platform to download Free Photos</div>
                 <div class="home-subtitle">Your-Plugin is a platform to download free Photos,Pictures,and Beautiful Pictures </div>
                 <a href="#" class="btn btn-lg downloadbtn">Start Your Download</a>
             </div>
   
-  
+
   
   </section>
-  
+     -->
   <!-- /GALLERY ENDS HERE -->
   <!-- OPTION STARTS HERE-->
   <section class='shym-option'>
