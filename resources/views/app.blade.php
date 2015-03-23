@@ -46,12 +46,12 @@
 </button>
 
 
-<a class='shym-logo'> <img src="{{ asset('/img/logo.png') }}" alt='Shym'/></a>
+<a class='shym-logo'> <img src="{{ asset('/img/logo.png') }}" alt='le logo'/></a>
 <ul class='shym-social-icons'>
-  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+  <li><a href="https://twitter.com/leMirageFr"><i class="fa fa-twitter"></i></a></li>
+ <li><a href="https://www.facebook.com/clemirage"><i class="fa fa-facebook"></i></a></li>
+<li><a href="https://plus.google.com/u/0/+WilliamLanglois-lemirage"><i class="fa fa-google-plus"></i></a></li>
+<li><a href="https://plus.google.com/u/0/+WilliamLanglois-lemirage"><i class="fa fa-youtube"></i></a></li>
  </ul>
 </div>
 
@@ -104,7 +104,7 @@
   </section>
     <!-- /OPTION ENDS HERE -->
 	
-<!--APPLICATION ENDS HERE -->
+<!--APPLICATION ENDS HERE 
 <section class='shym-application'>
 <div class='container'>
 
@@ -128,7 +128,7 @@
 
 
 </div>
-
+-->
 </section>
 	
 <!--/APPLICATION ENDS HERE-->	
@@ -560,12 +560,12 @@
         <!--======= SOCIAL ICONS PART =========-->
         <div class="social_icons">
           <ul>
-            <li class="facebook"> <a href="#." data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-facebook"></i> </a> </li>
-            <li class="twitter"> <a href="#." data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-twitter"></i> </a> </li>
-            <li class="dribbble"> <a href="#." data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-dribbble"></i> </a> </li>
-            <li class="googleplus"> <a href="#." data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-google"></i> </a> </li>
-            <li class="linkedin "> <a href="#." data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-linkedin"></i> </a> </li>
-            <li class="pinterest"> <a href="#." data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-pinterest"></i> </a> </li>
+            <li class="facebook"> <a href="https://www.facebook.com/clemirage" data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-facebook"></i> </a> </li>
+            <li class="twitter"> <a href="https://twitter.com/leMirageFr" data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-twitter"></i> </a> </li>
+            <li class="dribbble"> <a href="https://dribbble.com/lemirage" data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-dribbble"></i> </a> </li>
+            <li class="googleplus"> <a href="https://plus.google.com/u/0/+WilliamLanglois-lemirage/posts" data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-google"></i> </a> </li>
+            <li class="linkedin "> <a href="https://www.linkedin.com/profile/view?id=351422791&" data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-linkedin"></i> </a> </li>
+            <li class="pinterest"> <a href="https://github.com/lemirage" data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-github"></i> </a> </li>
           </ul>
         </div>
         
@@ -632,8 +632,8 @@
     </div>
     <div class="copyrights">
       <div class="container">
-        <p class="pull-left">© 2014  Scriptcafe.in</p>
-       <p class="pull-right">App Landing Page Designed and Developed by <a href='http://www.scriptcafe.in'>Scriptcafe.in </a></p>
+        <p class="pull-left">2015  le mirage</p>
+       <p class="pull-right">Powered by Laravel Made by <a href="https://plus.google.com/u/0/+WilliamLanglois-lemirage/posts" data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s">william langlois</a> Base Template <a href='http://www.scriptcafe.in'>Scriptcafe.in </a></p>
       </div>
     
   </footer>
