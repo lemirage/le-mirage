@@ -24,13 +24,14 @@ class RouteServiceProvider extends ServiceProvider {
 	{
 		parent::boot($router);
 
-		//
+		$router->model('user', 'App\Models\User');
 	}
+
 
 	/**
 	 * Define the routes for the application.
 	 *
-	 * @param  \Illuminate\Routing\Router  $router
+	 * @param \Illuminate\Routing\Router $router
 	 * @return void
 	 */
 	public function map(Router $router)
