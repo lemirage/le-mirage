@@ -205,7 +205,7 @@ a:focus{
     color: #888;
     padding: 0 11px 0 0;
     margin: 0 0 0 5px;
-    background: url(../images/breadcrumbs.png) no-repeat 100% 50%;
+    background: url(../img/breadcrumbs.png) no-repeat 100% 50%;
 }
 
 #breadcrumbs ul li:last-child a,

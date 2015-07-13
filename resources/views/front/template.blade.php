@@ -20,6 +20,7 @@
 		{!! HTML::style('css/fractionslider.css') !!}
 		{!! HTML::style('css/style-fraction.css') !!}
 		{!! HTML::style('css/switcher.css') !!}
+		{!! HTML::style('css/font-awesome.css') !!}
 		<!--[if (lt IE 9) & (!IEMobile)]>
 			{!! HTML::script('js/vendor/respond.min.js') !!}
 		<![endif]-->
@@ -132,7 +133,7 @@
 															@endif
 														@endif
 														<li class="imgflag">
-															<a href="{!! url('language') !!}"><img width="32" height="32" alt="en" src="{!! asset('img/' . (session('locale') == 'fr' ? 'english' : 'french') . '-flag.png') !!}"></a>
+															<a href="{!! url('language') !!}"><img width="15" height="15" alt="en" src="{!! asset('img/' . (session('locale') == 'fr' ? 'english' : 'french') . '-flag.png') !!}"></a>
 														</li>
 													</ul>
                     </div>
@@ -173,11 +174,12 @@
 
 	<footer role="contentinfo">
 		 @yield('footer')
-		<p class="text-center"><small>Copyright &copy; Momo</small></p>
+		<p class="text-center"><small>Copyright &copy;</small></p>
 	</footer>
 
 	{!! HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') !!}
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+		{!! HTML::script('js/jquery-1.10.2.min.js') !!}
 	{!! HTML::script('js/plugins.js') !!}
 	{!! HTML::script('js/main.js') !!}
 
@@ -190,20 +192,32 @@
 		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 		ga('create','UA-XXXXX-X');ga('send','pageview');
 	</script>
-	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/retina-1.1.0.min.js"></script>
-	<script type="text/javascript" src="js/jquery.cookie.js"></script> <!-- jQuery cookie -->
-	<script type="text/javascript" src="js/styleswitch.js"></script> <!-- Style Colors Switcher -->
-	<script type="text/javascript" src="js/jquery.smartmenus.min.js"></script>
-	<script type="text/javascript" src="js/jquery.smartmenus.bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
-	<script type="text/javascript" src="js/jflickrfeed.js"></script>
-	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-	<script type="text/javascript" src="js/swipe.js"></script>
-	<script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+
+
+	{!! HTML::script('js/bootstrap.min.js') !!}
+
+	{!! HTML::script('js/jquery.easing.1.3.js') !!}
+
+	{!! HTML::script('js/retina-1.1.0.min.js') !!}
+
+	{!! HTML::script('js/jquery.cookie.js') !!}
+
+	{!! HTML::script('js/styleswitch.js') !!}
+
+	{!! HTML::script('js/jquery.smartmenus.min.js') !!}
+
+	{!! HTML::script('js/jquery.smartmenus.bootstrap.min.js') !!}
+
+	{!! HTML::script('js/jquery.jcarousel.js') !!}
+
+	{!! HTML::script('js/jflickrfeed.js') !!}
+	{!! HTML::script('js/jquery.magnific-popup.min.js') !!}
+
+	{!! HTML::script('js/jquery.isotope.min.js') !!}
+
+	{!! HTML::script('js/swipe.js') !!}
+
+	{!! HTML::script('js/jquery-scrolltofixed-min.js') !!}
 	@yield('scripts')
 
   </body>
