@@ -25,7 +25,7 @@
 
 		<div class="form-group {!! $errors->has('slug') ? 'has-error' : '' !!}">
 			{!! Form::label('slug', trans('back/blog.permalink'), ['class' => 'control-label']) !!}
-			{!! url('/') . '/ ' . Form::text('slug', null, ['id' => 'permalien']) !!}
+			{!! url('/') . '/blog  ' . Form::text('slug', null, ['id' => 'permalien']) !!}
 			<small class="text-danger">{!! $errors->first('slug') !!}</small>
 		</div>
 
@@ -43,7 +43,7 @@
 @section('scripts')
 
 	{!! HTML::script('ckeditor/ckeditor.js') !!}
-	
+
 	<script>
 
 	  var config = {
@@ -70,7 +70,7 @@
 
     CKEDITOR.replace( 'summary', config);
 
-		config['height'] = 400;		
+		config['height'] = 400;
 
 		CKEDITOR.replace( 'content', config);
 
@@ -79,7 +79,7 @@
 			str = str.replace(/[^a-zA-Z0-9\s]/g,"");
 			str = str.toLowerCase();
 			str = str.replace(/\s/g,'-');
-			$("#permalien").val(str);        
+			$("#permalien").val(str);
 		});
 
   </script>
