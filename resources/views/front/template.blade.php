@@ -11,7 +11,16 @@
 		<title>{{ trans('front/site.title') }}</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+		  ga('create', 'UA-63542056-2', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 		@yield('head')
 
 		{!! HTML::style('css/main_front.css') !!}
@@ -44,19 +53,24 @@
         <div id="top-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-7 hidden-xs top-info">
-                        <span><i class="fa fa-phone"></i>Phone: (123) 456-7890</span>
-                        <span><i class="fa fa-envelope"></i>Email: mail@example.com</span>
-                    </div>
+									<div class="col-sm-7 hidden-xs top-info top-info">
+											<span><a href="https://www.youtube.com/channel/UCQx7grpUMNQrvs361L4gQ7w" class="my-youtube"><i class="fa fa-youtube fa-lg"></i>William LANGLOIS</a></span>
+											<span><a href="https://www.youtube.com/channel/UCqzYJ6QHR-oVdUOsw_kTUrg" class="my-youtube"><i class="fa fa-youtube fa-lg"></i>le mirage</a></span>
+									</div>
                     <div class="col-sm-5 top-info">
-                        <ul>
-                            <li><a href="" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="" class="my-skype"><i class="fa fa-skype"></i></a></li>
-                            <li><a href="" class="my-pint"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="" class="my-rss"><i class="fa fa-rss"></i></a></li>
-                            <li><a href="" class="my-google"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
+											<ul>
+													<li><a href="https://twitter.com/leMirageFr" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
+													<li><a href="https://www.facebook.com/clemirage" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
+													<li><a href="#" onclick='Skype.ui({
+															"name": "call",
+															"element": "SkypeButton_Call_william_1",
+															"participants": ["william"],
+															"imageSize": 32
+														});' class="my-skype"><i class="fa fa-skype"></i></a></li>
+													<li><a href="https://plus.google.com/u/0/+WilliamLanglois-lemirage/posts" class="my-google"><i class="fa fa-google-plus"></i></a></li>
+													<li><a href="http://www.twitch.tv/lemiragenoir" class="my-twitch">  <i class="fa fa-twitch"></i></a></li>
+
+											</ul>
                     </div>
                 </div>
             </div>
@@ -104,6 +118,9 @@
 														<li {!! Request::segment(1) == ('articles') || Request::segment(1) == ('blog') ? 'class="active"' : '' !!}>
 															{!! link_to('articles', trans('front/site.blog')) !!}
 														</li>
+														<li {!! Request::segment(1) == ('forum') || Request::segment(1) == ('forum') ? 'class="active"' : '' !!}>
+															{!! link_to('forum', trans('front/site.forum')) !!}
+														</li>
 														@if(Request::is('auth/register'))
 															<li class="active">
 																{!! link_to('auth/register', trans('front/site.register')) !!}
@@ -145,23 +162,6 @@
 	<!--End Header-->
 	<!--start wrapper-->
 	  <section class="wrapper">
-	    <section class="page_head">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-lg-12 col-md-12 col-sm-12">
-	                    <h2>Portfolio 2 Columns</h2>
-	                    <nav id="breadcrumbs">
-	                        <ul>
-	                            <li>You are here:</li>
-	                            <li><a href="index.html">Home</a></li>
-	                            <li><a href="index.html">Portfolio</a></li>
-	                            <li>Portfolio 2 Columns</li>
-	                        </ul>
-	                    </nav>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
 	<main role="main" class="container">
 		@if(session()->has('ok'))
 			@include('partials/error', ['type' => 'success', 'message' => session('ok')])
@@ -172,11 +172,29 @@
 		@yield('main')
 	</main>
 
-	<footer role="contentinfo">
-		 @yield('footer')
-		<p class="text-center"><small>Copyright &copy;</small></p>
-	</footer>
 
+	<section class="footer_bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 ">
+						<p class="copyright">&copy; Copyright 2015 William Langlois | le mirage | Powered by  <a href="http://www.laravel.com/">laravel</a></p>
+				</div>
+
+				<div class="col-lg-6 ">
+					<div class="footer_social">
+						<ul class="footbot_social">
+							<li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="dribbble" href="#." data-placement="top" data-toggle="tooltip" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
+							<li><a class="skype" href="#." data-placement="top" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a></li>
+							<li><a class="rss" href="#." data-placement="top" data-toggle="tooltip" title="RSS"><i class="fa fa-rss"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	 @yield('footer')
 	{!! HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') !!}
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 		{!! HTML::script('js/jquery-1.10.2.min.js') !!}

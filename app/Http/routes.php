@@ -2,7 +2,7 @@
 
 // Home
 Route::get('/', [
-	'uses' => 'HomeController@index', 
+	'uses' => 'HomeController@index',
 	'as' => 'home'
 ]);
 Route::get('language', 'HomeController@language');
@@ -20,7 +20,8 @@ Route::get('medias', [
 	'as' => 'medias',
 	'middleware' => 'redac'
 ]);
-
+//page
+Route::resource('photo', 'PhotoController');
 
 // Blog
 Route::get('blog/order', 'BlogController@indexOrder');

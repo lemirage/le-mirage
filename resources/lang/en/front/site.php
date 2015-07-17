@@ -1,12 +1,13 @@
 <?php
 
 return [
-	'title' => 'Laravel 5',
+	'title' => 'Le Mirage',
 	'sub-title' => 'An awesome PHP framework',
 	'home' => 'Home',
 	'contact' => 'Contact',
 	'blog' => 'Blog',
 	'register' => 'Register',
+	'forum' => 'Forum',
 	'forget-password' => 'Forgotten password',
 	'connection' => 'Connection',
 	'administration' => 'Administration',

@@ -114,7 +114,7 @@ a:focus{
 
 .top-info span { font: 13px/28px "open sans"; padding-right: 15px; }
 
-.top-info span i { font-size: 13px; margin-right: 5px; }
+.top-info span i { margin-right: 5px; }
 
 .top-info li{ float:left;}
 
@@ -134,12 +134,34 @@ a:focus{
     -moz-transition: background-color 400ms linear;
     -o-transition: background-color 400ms linear;
 }
+.top-info span a {
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  font-weight:bold;
+  line-height: 28px;
+  font-size: 17px;
+  display:inline-block;
+  text-align: center;
+  transition: background-color 400ms linear;
+  -webkit-transition: background-color 400ms linear;
+  -ms-transition: background-color 400ms linear;
+  -moz-transition: background-color 400ms linear;
+  -o-transition: background-color 400ms linear;
+}
+
+
+.top-info span:hover a            {color:#fff!important;}
+.top-info span:hover a.my-youtube {color:#FB503B!important; font-weight:bold;}
+
 .top-info li:hover a                {color:#fff!important;}
 .top-info li:hover a.my-tweet       {background:#3ABDD1;}
 .top-info li:hover a.my-facebook    {background:#648CD5;}
 .top-info li:hover a.my-skype       {background:#00AFFF;}
 .top-info li:hover a.my-pint        {background:#DE5656;}
 .top-info li:hover a.my-rss         {background:#EF8D1F;}
+.top-info li:hover a.my-twitch      {background:#7550BA;}
+.top-info li:hover a.my-youtube     {background:#E73904;}
 .top-info li:hover a.my-google      {background:#E73904;}
 .top-info li:first-child a          {border-left:1px solid #F2796C;}
 
@@ -148,7 +170,6 @@ a:focus{
 /* Logo
 ====================================*/
 #logo-bar{
-    padding:10px 0;
     background:#fff;
 }
 #logo-bar.scroll-to-fixed-fixed{
