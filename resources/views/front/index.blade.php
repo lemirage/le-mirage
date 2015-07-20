@@ -12,9 +12,11 @@
 						<div class="row sub_content">
 								<div class="col-sm-4 col-md-4 col-lg-4 ">
 										<div class="serviceBox_2 indexwhite">
+											<a href="http://cecstleu.fr/mondioring">
 												<i class="fa fa-paw"></i>
 												<h3>Mondioring</h3>
 												<p>Le mondioring est un sport canin</p>
+											</a>
 										</div>
 								</div>
 								<div class="col-sm-4 col-md-4 col-lg-4 ">

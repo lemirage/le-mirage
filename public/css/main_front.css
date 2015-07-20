@@ -2412,6 +2412,10 @@ a.read:after {
     margin: 0;
     font-family:lato;
 }
+.serviceBox_2 a {
+  color: #000;
+  text-decoration: none;
+}
 .serviceBox_2 h3 {
     font-size: 20px;
     font-weight: 600;
@@ -2440,7 +2444,10 @@ a.read:after {
     -ms-transition: background-color 0.7s ease-in-out;
     transition: background-color 0.7s ease-in-out;
 }
-
+.serviceBox_2 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
 .serviceBox_2:hover h3,
 .serviceBox_2:hover p
 {
