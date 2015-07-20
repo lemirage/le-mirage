@@ -93,6 +93,11 @@ a:focus{
     text-decoration: none;
 }
 
+.indexwhite{
+  background-color: #fff;
+}
+
+
 .not-ie a {
     -webkit-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
     -moz-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
@@ -1482,7 +1487,7 @@ ul.tags {
 .author_social li a.twtr:hover    {background: #3abdd1; color:#fff;}
 .author_social li a.gmail:hover   {background: #363636; color:#fff;}
 .author_social li a.pinterest:hover{background: #d13a3a; color:#fff;}
-.author_social li a.rss:hover     {background: #f15200; color:#fff;}
+.author_social li a.rss:hover     {background: #E73904; color:#fff;}
 .author_social li a.tumblr:hover  {background: #203550; color:#fff;}
 .author_social li a.flickr:hover        {background: #ff0084; color:#fff;}
 .author_social li a.instagram:hover     {background: #507ea4; color:#fff;}
@@ -3502,7 +3507,7 @@ blockquote.default {
 .footbot_social li a.twtr:hover          {color: #fff; background:#3ABDD1; border-radius:5px;}
 .footbot_social li a.gmail:hover         {color: #fff;}
 .footbot_social li a.pinterest:hover     {color: #fff;}
-.footbot_social li a.rss:hover           {color: #fff; background:#F15200; border-radius:5px;}
+.footbot_social li a.rss:hover           {color: #fff; background:#E73904; border-radius:5px;}
 .footbot_social li a.tumblr:hover        {color: #fff;}
 .footbot_social li a.flickr:hover        {color: #fff;}
 .footbot_social li a.instagram:hover     {color: #fff;}

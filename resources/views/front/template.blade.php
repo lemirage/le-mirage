@@ -183,33 +183,26 @@
 				<div class="col-lg-6 ">
 					<div class="footer_social">
 						<ul class="footbot_social">
-							<li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
-							<li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a class="dribbble" href="#." data-placement="top" data-toggle="tooltip" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
-							<li><a class="skype" href="#." data-placement="top" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a></li>
-							<li><a class="rss" href="#." data-placement="top" data-toggle="tooltip" title="RSS"><i class="fa fa-rss"></i></a></li>
+							<li><a class="rss" href="https://www.youtube.com/channel/UCQx7grpUMNQrvs361L4gQ7w" data-placement="top" data-toggle="tooltip" title="Youtube william"><i class="fa fa-youtube"></i></a></li>
+							<li><a class="fb" href="https://www.facebook.com/clemirage" data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="rss" href="https://plus.google.com/u/0/+WilliamLanglois-lemirage/posts" data-placement="top" data-toggle="tooltip" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+							<li><a class="twtr" href="https://twitter.com/leMirageFr" data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="dribbble" href="https://dribbble.com/lemirage" data-placement="top" data-toggle="tooltip" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
+							<li><a class="rss" href="https://www.youtube.com/channel/UCqzYJ6QHR-oVdUOsw_kTUrg" data-placement="top" data-toggle="tooltip" title="Youtube le mirage"><i class="fa fa-youtube"></i></a></li>
+
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
 	 @yield('footer')
 	{!! HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') !!}
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 		{!! HTML::script('js/jquery-1.10.2.min.js') !!}
 	{!! HTML::script('js/plugins.js') !!}
 	{!! HTML::script('js/main.js') !!}
-
-	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-	<script>
-		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-		e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-		e.src='//www.google-analytics.com/analytics.js';
-		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-		ga('create','UA-XXXXX-X');ga('send','pageview');
-	</script>
 
 
 	{!! HTML::script('js/bootstrap.min.js') !!}
