@@ -2,14 +2,13 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-
+<!--[if gt IE 8]><!--> <html lang="fr" class="no-js"> <!--<![endif]-->
 	<head>
-
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>{{ trans('front/site.title') }}</title>
-		<meta name="description" content="">
+		<meta name="description" content="William langlois, concepteur de sites web & photographe amateur.">
+		<meta name="keywords" content="php, amateur, photographe, conception, web, sites-web, laravel, william langlois, mondioring">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -44,7 +43,6 @@
 	</head>
 
   <body>
-
 	<!--[if lt IE 8]>
 		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
@@ -92,8 +90,7 @@
         </div>
         <!--LOGO bar / End-->
 
-        <!-- Navigation
-================================================== -->
+        <!-- Navigation ================================================== -->
         <div class="navbar navbar-default navbar-static-top" role="navigation">
             <div class="container">
                 <div class="row">
@@ -171,15 +168,12 @@
 		@endif
 		@yield('main')
 	</main>
-
-
 	<section class="footer_bottom">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 ">
 						<p class="copyright">&copy; Copyright 2015 William Langlois | le mirage | Powered by  <a href="http://www.laravel.com/">laravel</a></p>
 				</div>
-
 				<div class="col-lg-6 ">
 					<div class="footer_social">
 						<ul class="footbot_social">
@@ -189,7 +183,6 @@
 							<li><a class="twtr" href="https://twitter.com/leMirageFr" data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 							<li><a class="dribbble" href="https://dribbble.com/lemirage" data-placement="top" data-toggle="tooltip" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
 							<li><a class="rss" href="https://www.youtube.com/channel/UCqzYJ6QHR-oVdUOsw_kTUrg" data-placement="top" data-toggle="tooltip" title="Youtube le mirage"><i class="fa fa-youtube"></i></a></li>
-
 						</ul>
 					</div>
 				</div>
@@ -198,12 +191,14 @@
 	</section>
 
 	 @yield('footer')
-	{!! HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') !!}
-	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-		{!! HTML::script('js/jquery-1.10.2.min.js') !!}
-	{!! HTML::script('js/plugins.js') !!}
-	{!! HTML::script('js/main.js') !!}
 
+	{!! HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') !!}
+
+	{!! HTML::script('js/jquery-1.10.2.min.js') !!}
+
+	{!! HTML::script('js/plugins.js') !!}
+
+	{!! HTML::script('js/main.js') !!}
 
 	{!! HTML::script('js/bootstrap.min.js') !!}
 
@@ -222,6 +217,7 @@
 	{!! HTML::script('js/jquery.jcarousel.js') !!}
 
 	{!! HTML::script('js/jflickrfeed.js') !!}
+
 	{!! HTML::script('js/jquery.magnific-popup.min.js') !!}
 
 	{!! HTML::script('js/jquery.isotope.min.js') !!}
@@ -229,6 +225,7 @@
 	{!! HTML::script('js/swipe.js') !!}
 
 	{!! HTML::script('js/jquery-scrolltofixed-min.js') !!}
+
 	@yield('scripts')
 
   </body>

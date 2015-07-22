@@ -96,7 +96,7 @@ a:focus{
 .indexwhite{
   background-color: #fff;
 }
-
+.hpet{ display: none; }
 
 .not-ie a {
     -webkit-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
@@ -281,8 +281,8 @@ a:focus{
 .navbar{
     margin-bottom: 0;
     background:#323A45;
-    min-height:35px;
-    border:none;
+    min-height:35px !important;
+    border-bottom: 2px solid #000 !important;
 }
 
 /* sub menus arrows */
@@ -353,8 +353,7 @@ a:focus{
     border-left:7px dashed transparent;
 }
 .navbar-nav{
-    border-right: 1px solid #19222d;
-    border-left: 1px solid #425166;
+
 }
 .navbar-nav span.scroll-down-arrow {
     top:6px;
@@ -371,8 +370,7 @@ a:focus{
     line-height:15px;
 }
 .navbar-default .navbar-nav > li{
-    border-left: 1px solid #19222d;
-    border-right: 1px solid #425166;
+
 }
 .navbar-default .navbar-nav > li > a{
     padding:14px 25px;
@@ -1298,7 +1296,7 @@ ul.tags {
 .blog_medium .post_content {
     float: left;
     margin: 0;
-    width: 50%;
+    width: 80%;
 }
 .blog_medium .post.no_images .post_content {
     max-width: 88%;
