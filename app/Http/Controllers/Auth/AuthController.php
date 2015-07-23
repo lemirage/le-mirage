@@ -43,7 +43,7 @@ class AuthController extends Controller {
 		}
 
 		$logAccess = filter_var($logValue, FILTER_VALIDATE_EMAIL) ? 'email' : 'username';
-		
+
 		$credentials = [$logAccess => $logValue, 'password' => $request->input('password')];
 
 		if ($this->auth->attempt($credentials, $request->has('memory')))

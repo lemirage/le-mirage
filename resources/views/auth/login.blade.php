@@ -28,7 +28,7 @@
 					<span class="cd-error-message">Error here!</span>
 				</p>
 
-
+	{!! Form::text('address', '', ['class' => 'hpet']) !!}
 				<p class="fieldset">
 					{!! Form::submit(trans('front/form.send')) !!}
 

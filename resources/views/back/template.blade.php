@@ -9,7 +9,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Mon site</title>
-		<meta name="description" content="">	
+		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		{!! HTML::style('css/main_back.css') !!}
@@ -81,11 +81,11 @@
                         </li>
                         <li {!! Request::is('contact') ? 'class="active"' : '' !!}>
                             <a href="{!! url('contact') !!}"><span class="fa fa-fw fa-envelope"></span> {{ trans('back/admin.messages') }}</a>
-                        </li>  
+                        </li>
                         <li {!! Request::is('comment') ? 'class="active"' : '' !!}>
                             <a href="{!! url('comment') !!}"><span class="fa fa-fw fa-comments"></span> {{ trans('back/admin.comments') }}</a>
-                        </li> 
-                    @endif                  
+                        </li>
+                    @endif
                     <li {!! Request::is('medias') ? 'class="active"' : '' !!}>
                         <a href="{!! route('medias') !!}"><span class="fa fa-fw fa-file-image-o"></span> {{ trans('back/admin.medias') }}</a>
                     </li>
