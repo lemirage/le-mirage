@@ -10,6 +10,7 @@
 		<meta name="description" content="William langlois, concepteur de sites web & photographe amateur.">
 		<meta name="keywords" content="php, amateur, photographe, conception, web, sites-web, laravel, william langlois, mondioring">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="logo.png" sizes="192x192">
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

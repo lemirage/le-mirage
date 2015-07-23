@@ -47,7 +47,11 @@ Route::put('uservalid/{id}', 'CommentController@valid');
 Route::resource('contact', 'ContactController', [
 	'except' => ['show', 'edit']
 ]);
-
+//works
+Route::get('/works', function()
+{
+    return View::make('front.works.works');
+});
 
 // User
 Route::get('user/sort/{role}', 'UserController@indexSort');

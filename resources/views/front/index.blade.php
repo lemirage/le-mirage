@@ -147,7 +147,7 @@
 									<h3>Langages de programmation</h3>
 								</div>
 								<div class="fr_content">
-									<p>PHP POO MVC<br> Framework (laravel, zend)<br> Prestashop<br>Html5<br> JavaScript<br> Ajax<br> JQuery <br>CSS 3</p>
+									<p>PHP POO MVC<br> Framework (laravel, zend)<br> Solution E-commerce : Prestashop<br>Html5<br> JavaScript<br> Ajax<br> JQuery <br>CSS 3</p>
 
 								</div>
 							</div>
