@@ -21,6 +21,14 @@
 		  ga('send', 'pageview');
 
 		</script>
+        <script type="text/javascript">
+    var adfly_id = 9125984;
+    var adfly_advert = 'banner';
+    var frequency_cap = 5;
+    var frequency_delay = 5;
+    var init_delay = 3;
+    var popunder = true;
+</script>
 		@yield('head')
 
 		{!! HTML::style('css/main_front.css') !!}
@@ -53,21 +61,21 @@
             <div class="container">
                 <div class="row">
 									<div class="col-sm-7 hidden-xs top-info top-info">
-											<span><a href="https://www.youtube.com/channel/UCQx7grpUMNQrvs361L4gQ7w" class="my-youtube"><i class="fa fa-youtube fa-lg"></i>William LANGLOIS</a></span>
-											<span><a href="https://www.youtube.com/channel/UCqzYJ6QHR-oVdUOsw_kTUrg" class="my-youtube"><i class="fa fa-youtube fa-lg"></i>le mirage</a></span>
+											<span><a href="https://www.youtube.com/channel/UCQx7grpUMNQrvs361L4gQ7w"  target="blank"  class="my-youtube"><i class="fa fa-youtube fa-lg"></i>William LANGLOIS</a></span>
+											<span><a href="https://www.youtube.com/channel/UCqzYJ6QHR-oVdUOsw_kTUrg"  target="blank"  class="my-youtube"><i class="fa fa-youtube fa-lg"></i>le mirage</a></span>
 									</div>
                     <div class="col-sm-5 top-info">
 											<ul>
-													<li><a href="https://twitter.com/leMirageFr" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
-													<li><a href="https://www.facebook.com/clemirage" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
+													<li><a href="https://twitter.com/leMirageFr"  target="blank"  class="my-tweet"><i class="fa fa-twitter"></i></a></li>
+													<li><a href="https://www.facebook.com/clemirage"  target="blank"  class="my-facebook"><i class="fa fa-facebook"></i></a></li>
 													<li><a href="#" onclick='Skype.ui({
 															"name": "call",
 															"element": "SkypeButton_Call_william_1",
 															"participants": ["william"],
 															"imageSize": 32
 														});' class="my-skype"><i class="fa fa-skype"></i></a></li>
-													<li><a href="https://plus.google.com/u/0/+WilliamLanglois-lemirage/posts" class="my-google"><i class="fa fa-google-plus"></i></a></li>
-													<li><a href="http://www.twitch.tv/lemiragenoir" class="my-twitch">  <i class="fa fa-twitch"></i></a></li>
+													<li><a href="https://plus.google.com/u/0/+WilliamLanglois-lemirage/posts"  target="blank"  class="my-google"><i class="fa fa-google-plus"></i></a></li>
+													<li><a href="http://www.twitch.tv/lemiragenoir"  target="blank"  class="my-twitch">  <i class="fa fa-twitch"></i></a></li>
 
 											</ul>
                     </div>
@@ -173,17 +181,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 ">
-						<p class="copyright">&copy; Copyright 2015 William Langlois | le mirage | Powered by  <a href="http://www.laravel.com/">laravel</a></p>
+						<p class="copyright">&copy; Copyright 2015 William Langlois | le mirage | Powered by  <a href="http://www.laravel.com/"  target="blank" >laravel</a></p>
 				</div>
 				<div class="col-lg-6 ">
 					<div class="footer_social">
 						<ul class="footbot_social">
-							<li><a class="rss" href="https://www.youtube.com/channel/UCQx7grpUMNQrvs361L4gQ7w" data-placement="top" data-toggle="tooltip" title="Youtube william"><i class="fa fa-youtube"></i></a></li>
-							<li><a class="fb" href="https://www.facebook.com/clemirage" data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
-							<li><a class="rss" href="https://plus.google.com/u/0/+WilliamLanglois-lemirage/posts" data-placement="top" data-toggle="tooltip" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-							<li><a class="twtr" href="https://twitter.com/leMirageFr" data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a class="dribbble" href="https://dribbble.com/lemirage" data-placement="top" data-toggle="tooltip" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
-							<li><a class="rss" href="https://www.youtube.com/channel/UCqzYJ6QHR-oVdUOsw_kTUrg" data-placement="top" data-toggle="tooltip" title="Youtube le mirage"><i class="fa fa-youtube"></i></a></li>
+							<li><a class="rss" href="https://www.youtube.com/channel/UCQx7grpUMNQrvs361L4gQ7w"  target="blank"  data-placement="top" data-toggle="tooltip" title="Youtube william"><i class="fa fa-youtube"></i></a></li>
+							<li><a class="fb" href="https://www.facebook.com/clemirage" data-placement="top"  target="blank"  data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="rss" href="https://plus.google.com/u/0/+WilliamLanglois-lemirage/posts"  target="blank"  data-placement="top" data-toggle="tooltip" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+							<li><a class="twtr" href="https://twitter.com/leMirageFr" data-placement="top"  target="blank"  data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="dribbble" href="https://dribbble.com/lemirage" data-placement="top"  target="blank"  data-toggle="tooltip" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
+							<li><a class="rss" href="https://www.youtube.com/channel/UCqzYJ6QHR-oVdUOsw_kTUrg"  target="blank"  data-placement="top" data-toggle="tooltip" title="Youtube le mirage"><i class="fa fa-youtube"></i></a></li>
 						</ul>
 					</div>
 				</div>
