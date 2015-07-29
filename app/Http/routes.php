@@ -53,6 +53,11 @@ Route::get('/works', function()
     return View::make('front.works.works');
 });
 
+Route::get('/signature', function()
+{
+    return View::make('front.signature.william');
+});
+
 // User
 Route::get('user/sort/{role}', 'UserController@indexSort');
 
